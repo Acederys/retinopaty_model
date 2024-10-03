@@ -1,2 +1,22 @@
-/data
-/yolo-metrics.ipynb
+# Исключаем виртуальное окружение
+venv/
+
+# Исключаем временные файлы и артефакты
+*.png
+*.dvc
+# Исключаем все .db файлы, кроме mlflow.db
+*.db
+.idea/
+
+# Исключаем результаты и артефакты MLflow
+mlruns/
+logged_model/
+results/
+data/
+
+# Исключаем другие модели и временные файлы
+last.pt
+yolo-metrics.ipynb
+
+# Игнорируем mlflow.db, оставим только для временных данных
+# mlflow.db

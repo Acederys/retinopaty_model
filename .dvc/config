@@ -1,0 +1,5 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://retinopatyml/b1gbqcgk1bfajrkrfdfr
+    region = ru-central1-b

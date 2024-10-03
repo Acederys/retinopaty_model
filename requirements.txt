@@ -1,0 +1,14 @@
+ultralytics
+torch
+torchvision
+mlflow
+dvc
+dvc[s3]
+ipywidgets
+numpy
+pandas
+scikit-learn
+matplotlib
+Pillow
+boto3
+io
